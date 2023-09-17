@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    font-size: 15px;
+   
+}
+h1{
+    font-size: 50px;
+    color: #ffffff;
+}
+h3{
+   color: rgb(247, 210, 6);
+}
+h2{
+    color: white;
+    font-size: 35px;
+}
+h4{
+    font-size: 35px;
+    color: #ffffff;
+}
+a:hover{
+    border-bottom: 3px solid rgb(247, 210, 6);
+    transition: 1s;
+}
+
+/*------Intro Section------- */ 
+.header{
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-right:150px;
+    font-size: 50px;
+}
+.sub-header{
+    padding-left: 100px; 
+}
+.background{
+    min-height: 95vh;
+    background-image: linear-gradient(rgba(240, 239, 239, 0),rgba(27, 27, 27, 0.308)),url(../image/myself.png);
+    background-color: rgb(54, 53, 53);
+	background-size: cover;
+	position: relative;
+    width: 100%;;
+}
+.introduction{
+    overflow: hidden;
+    padding-left:5% ;
+    padding-top: 8%;
+}
+.explanation{
+    display: flex;
+}
+.progress{
+    padding-left: 55%;
+}
+.progress-p{
+    width:290px;
+    padding-bottom: 10px;
+    color: rgb(204, 199, 199);
+}
+
+.About-button{
+    border: 1px solid rgb(247, 210, 6);
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(247, 210, 6);
+    color: rgb(3, 3, 3);
+    font-size: 15px;
+    width: 130px;
+    transition: width 1s ease 0s;
+}
+.About-button:hover{
+    width: 200px;
+}
+
+/*------Services Section------- */ 
+
+.service-section{
+    background-color: rgb(78, 77, 77) ;
+    overflow: hidden;
+}
+
+.services{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.service-offered{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-bottom: 100px;
+}
+.service-sub{
+    background-color:rgb(70, 66, 66); ;
+    padding: 100px;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.service-sub:hover {
+    box-shadow: 0 0 10px rgba(247, 246, 246, 0.5); 
+    transform: scale(1.10);
+    transition: 1s;
+}
+
+.paratext{
+    color: rgb(204, 199, 199);
+    padding: 20px;
+}
+.Icons {
+    font-size: 70px; /* You can adjust the size as needed */
+  }
+.Icons i.fa-html5:hover{
+    color: orange;
+    transform: scale(1.5);
+    transition: 1s;
+}
+.Icons i.fa-css3:hover{
+    color: rgb(86, 170, 248);
+    transform: scale(1.5);
+    transition: 1s;
+}
+.Icons i.fa-database:hover{
+    color: rgb(6, 123, 233);
+    transform: scale(1.5);
+    transition: 1s;
+}
+.Icons i.fa-search:hover{
+    color: rgb(231, 103, 103);
+    transform: scale(1.5);
+    transition: 1s;
+    filter: brightness(1.5);
+}
+
+/*------Footer link------- */ 
+.footer{
+    overflow: hidden;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    justify-content: center;
+    padding:50px;
+    text-align: center;
+
+}
+
+.footer-linkf{
+    background-color:rgb(204, 141, 6);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding:20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.footer-linkf:hover{
+    background-color: rgb(23, 61, 233);
+    transition: 1s;
+}
+.footer-linkl{
+    background-color:rgb(204, 141, 6);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding:20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+}
+.footer-linkl:hover{
+    background-color: rgb(92, 120, 245);
+    transition: 1s;
+}
+.footer-linkg{
+    background-color:rgb(204, 141, 6);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding:20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.footer-linkg:hover{
+    background-color: rgb(248, 121, 3);
+    transition: 1s;
+}
+.footer-linkin{
+    background-color:rgb(204, 141, 6);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding:20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.footer-linkin:hover{
+    background-color: rgb(241, 6, 202);
+    transition: 1s;
+}
